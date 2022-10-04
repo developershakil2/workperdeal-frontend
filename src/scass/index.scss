@@ -126,6 +126,7 @@ img.logo {
 .search_btn_wrapper {
     display: flex;
     flex-direction: row;
+    z-index: 20;
 
     .search_btn {
         padding: 3px 20px;
@@ -281,6 +282,7 @@ img.logo {
     span {
         position: absolute;
         width: 100%;
+        padding: 0px 10px;
         height: 280px;
         color: #fff;
         border-radius: 15px;
@@ -340,15 +342,65 @@ img.logo {
 
     span {
         color: #111;
+        padding-left: 3px;
+
     }
 
     p {
         color: $maincolor;
+        padding-bottom: 9px;
     }
+
 
     .userSlideImg {
         width: 35px;
         height: 35px;
         border-radius: 19px;
     }
+}
+
+
+.react-multiple-carousel__arrow {
+    background: $maincolor  !important;
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: #111 !important;
+}
+
+.getin_de {
+    box-shadow: 0px 0px 5px;
+}
+
+.cat_icon_wrapper {
+    i {
+        color: $maincolor;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    p {
+        color: #111;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+}
+
+a#fservices {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: $maincolor;
+    width: 200px;
+    margin: auto;
+    color: #fff;
+    margin-top: 50px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 31px;
 }

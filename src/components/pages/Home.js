@@ -6,6 +6,8 @@ import HomeImgSlide from '../partial/Home_img_slide';
 import HomeCatSlider from '../partial/HomeCatSlider';
 import BuyInstant from '../sections/BuyInstant';
 import GetInspaired from '../sections/Getinspared';
+import Hirefreelancer from '../sections/Hirefreelancer';
+import CateSection from '../sections/CateSection';
 const Home = () => {
     return (
         <>
@@ -72,6 +74,23 @@ const Home = () => {
                     <GetInspaired />
                 </div>
             </section>
+
+
+            <section id="hirefreelancer">
+                <div className="container m-auto">
+                    <Hirefreelancer />
+                </div>
+            </section>
+
+
+
+            <section id="CateSection" >
+                <div className="container m-auto mt-5">
+                    <h2 className="my-5">Explor Marketplace</h2>
+                    <CateSection />
+                </div>
+            </section>
+
 
         </>
 
