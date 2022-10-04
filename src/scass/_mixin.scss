@@ -1,0 +1,14 @@
+@mixin dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+@mixin normalLink {
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+    font-family: $mainfont
+}
